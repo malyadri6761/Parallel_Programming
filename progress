@@ -1,0 +1,177 @@
+OpenMP
+  │
+  ├── 1. Threads
+  │      ├── parallel
+  │      ├── thread ID
+  │      └── number of threads
+  │
+  ├── 2. Work Sharing
+  │      ├── parallel for
+  │      ├── schedule(static)
+  │      ├── schedule(dynamic)
+  │      └── sections
+  │
+  ├── 3. Data Sharing
+  │      ├── shared
+  │      ├── private
+  │      ├── firstprivate
+  │      └── reduction
+  │
+  ├── 4. Synchronization
+  │      ├── critical
+  │      ├── atomic
+  │      ├── barrier
+  │      └── master/single
+  │
+  ├── 5. Performance
+  │      ├── scheduling
+  │      ├── load balancing
+  │      ├── false sharing
+  │      ├── race conditions
+  │      └── speedup/efficiency
+  │
+  └── 6. Projects
+         ├── Vector operations
+         ├── Matrix multiplication
+         ├── K-Means
+         ├── PageRank
+         ├── Parallel sorting
+         └── Graph algorithms
+
+
+
+
+
+
+PHASE 1 — OpenMP / CPU Parallel Programming
+│
+├── 1. OpenMP basics                         ✅
+├── 2. parallel / parallel for              ✅
+├── 3. Scheduling
+│     ├── static                            ✅
+│     ├── dynamic                           ✅
+│     └── guided                            ✅
+├── 4. Data sharing
+│     ├── shared                            ✅
+│     ├── private                           ✅
+│     └── firstprivate                      ✅
+├── 5. Synchronization
+│     ├── critical                          ✅
+│     ├── atomic                            ✅
+│     └── barrier                           ✅
+├── 6. Reduction                            ✅
+├── 7. sections / single / tasks            ✅
+├── 8. Performance
+│     ├── timing                            ✅
+│     ├── speedup                           ✅
+│     ├── efficiency                        ✅
+│     ├── load balancing                    ✅
+│     └── false sharing                     ✅
+├── 9. Thread affinity                      ✅
+└── 10. Matrix multiplication project       ✅
+                 │
+                 ▼
+══════════════════════════════════════════════
+              CUDA / GPU
+══════════════════════════════════════════════
+                 │
+                 ▼
+PHASE 2 — GPU & CUDA Fundamentals
+│
+├── 11. CPU vs GPU architecture
+├── 12. Why GPU parallelism?
+├── 13. NVIDIA GPU architecture
+├── 14. CUDA programming model
+├── 15. Host vs Device
+├── 16. CUDA threads
+├── 17. Thread blocks
+├── 18. Grid
+└── 19. Kernel functions
+                 │
+                 ▼
+PHASE 3 — First CUDA Programs
+│
+├── 20. CUDA environment / nvcc
+├── 21. Hello World kernel
+├── 22. Thread ID calculation
+├── 23. Vector addition
+├── 24. Vector multiplication
+├── 25. Array operations
+└── 26. CUDA error handling
+                 │
+                 ▼
+PHASE 4 — CUDA Memory
+│
+├── 27. GPU memory hierarchy
+├── 28. Global memory
+├── 29. Registers
+├── 30. Shared memory
+├── 31. Constant memory
+├── 32. Memory transfers
+├── 33. cudaMalloc / cudaMemcpy
+├── 34. Memory coalescing
+└── 35. Bank conflicts
+                 │
+                 ▼
+PHASE 5 — CUDA Synchronization
+│
+├── 36. __syncthreads()
+├── 37. Thread synchronization
+├── 38. Atomic operations
+├── 39. Race conditions
+└── 40. CUDA streams
+                 │
+                 ▼
+PHASE 6 — CUDA Performance
+│
+├── 41. Warp execution
+├── 42. Warp divergence
+├── 43. Occupancy
+├── 44. Memory bandwidth
+├── 45. Latency hiding
+├── 46. Kernel optimization
+└── 47. CUDA profiling
+                 │
+                 ▼
+PHASE 7 — ML-Oriented CUDA
+│
+├── 48. GPU vector operations
+├── 49. Matrix multiplication
+├── 50. Convolution
+├── 51. Reduction kernels
+├── 52. Softmax
+├── 53. Attention computation
+└── 54. Custom ML kernels
+                 │
+                 ▼
+PHASE 8 — PyTorch + CUDA
+│
+├── 55. PyTorch CUDA tensors
+├── 56. CPU ↔ GPU transfers
+├── 57. CUDA streams in PyTorch
+├── 58. Custom CUDA extensions
+├── 59. Custom PyTorch operators
+└── 60. CUDA kernels inside ML pipelines
+                 │
+                 ▼
+PHASE 9 — Advanced GPU ML
+│
+├── 61. Tensor Cores
+├── 62. Mixed precision / FP16 / BF16
+├── 63. TF32
+├── 64. cuBLAS
+├── 65. cuDNN
+├── 66. CUDA Graphs
+└── 67. Kernel fusion
+                 │
+                 ▼
+PHASE 10 — Production AI Infrastructure
+│
+├── 68. TensorRT
+├── 69. Inference optimization
+├── 70. Multi-GPU programming
+├── 71. NCCL
+├── 72. Distributed training
+├── 73. GPU memory optimization
+├── 74. Model serving
+└── 75. Production AI infrastructure
